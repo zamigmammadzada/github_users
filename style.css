@@ -1,0 +1,51 @@
+.input_container{
+    width: 1360px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+p,span,a,button, input{
+    font-size: 20px;
+}
+body{
+    padding: 20px 40px;
+}
+.main{
+    display: flex;
+    border: 2px solid ;
+    margin: 20px;
+    padding: 20px;
+    width: 1360px;
+    margin: 0 auto;
+}
+.left {
+    flex-grow: 1;
+}
+
+.right>img {
+    width: 200px;
+    height: 200px;
+}
+
+#follower_container{
+    border: 2px solid;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    width: 1360px;
+    margin: 0 auto;
+}
+
+#follower_container>div{
+    border: 1px solid #bbb;
+    display: inline-flex;
+    gap: 20px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}

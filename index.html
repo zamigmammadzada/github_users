@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>GitHubFinder</title>
+    <link rel='stylesheet' href='./style.css'>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="input_container">
+        <input type="text" id="input_user_name">
+        <button id="find_user_btn">find user</button>
+    </div>
+    <div class="main">
+        <div class="left">
+            <p>User name: <span id="git_user_name"></span></p>
+            <p>Location: <span id="git_user_location"></span></p>
+            <p>User bio: <span id="git_user_bio"></span></p>
+            <p>Joined us in: <span id="git_user_join"> </span></p>
+            <p>Followers: <span id="git_user_followers_count"></span></p>
+            <p>Following: <span id="git_user_following_count"></span></p>
+        </div>
+        <div class="right">
+            <img id="git_user_img" alt="">
+        </div>
+    </div>
+
+
+    <div id="follower_container"></div>
+    <script src='./app.js'></script>
+</body>
+
+</html>
